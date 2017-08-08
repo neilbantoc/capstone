@@ -37,6 +37,148 @@ section.cta {
 section.cta .cta-content p {
   color: white;
 }
+
+section.handle {
+  background: url("../img/handle.jpg"), #000000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+section.handle .handle-content {
+  position: relative;
+  z-index: 1;
+}
+
+section.handle .handle-content h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+  font-size: 50px;
+  text-align: right;
+}
+
+section.handle .handle-content p {
+  color: white;
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  section.handle .handle-content h2 {
+    font-size: 80px;
+  }
+}
+
+
+section.controls {
+  background: url("../img/controls.png"), #000000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+section.controls .content {
+  position: relative;
+  z-index: 1;
+}
+
+section.controls .content h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+  font-size: 50px;
+  text-align: right;
+}
+
+section.controls .content p {
+  color: white;
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  section.controls .content h2 {
+    font-size: 80px;
+  }
+}
+
+section.dock {
+  background: url("../img/dock.jpg"), #000000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+section.dock .content h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+  font-size: 50px;
+  text-align: left;
+}
+
+section.dock .content p {
+  color: white;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  section.dock .content h2 {
+    font-size: 80px;
+  }
+}
+
+section.lights {
+  background: url("../img/lights.gif"), #000000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+section.lights .content {
+  position: relative;
+  z-index: 1;
+}
+
+section.lights .content h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+  font-size: 50px;
+  text-align: left;
+}
+
+section.lights .content p {
+  color: white;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  section.lights .content h2 {
+    font-size: 80px;
+  }
+}
+
+
 .bg-primary {
   background: #FFA800;
 }
@@ -88,4 +230,95 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+}
+
+.icon-app-control {
+  background: url("../img/app-control.png"), #ffffff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: contain;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 480px;
+  width: 240px;
+  margin: 0px auto;
+}
+
+.icon-app-care {
+  background: url("../img/app-care.png"), #ffffff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: contain;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 480px;
+  width: 240px;
+  margin: 0px auto;
+}
+
+.icon-app-communication  {
+  background: url("../img/app-communication.png"), #ffffff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: contain;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 480px;
+  width: 240px;
+  margin: 0px auto;
+}
+
+.icon-handle {
+  background: url("../img/component-handle.svg"), #ffffff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: contain;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 240px;
+  width: 240px;
+  margin: 0px auto;
+}
+
+.icon-vacuum {
+  background: url("../img/component-vacuum.svg"), #ffffff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: contain;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 240px;
+  width: 240px;
+  margin: 0px auto;
+}
+
+.icon-dock {
+  background: url("../img/component-dock.svg"), #ffffff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: contain;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 240px;
+  width: 240px;
+  margin: 0px auto;
+}
+
+.icon-app {
+  background: url("../img/component-app.svg"), #ffffff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: contain;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 240px;
+  width: 240px;
+  margin: 0px auto;
 }
